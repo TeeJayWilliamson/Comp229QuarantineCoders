@@ -3,11 +3,12 @@ let mongoose = require('mongoose');
 // create a model class
 let surveysModel = mongoose.Schema({
     name: String,
-    question1: String,
-    question2: String,
-    question3: String,
-    question4: String,
-    question5: String,
+    description: String,
+    q1: String,
+    q2: String,
+    q3: String,
+    q4: String,
+    q5: String
 },
 
 {
