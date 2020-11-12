@@ -1,0 +1,42 @@
+<!-- Header and Nav -->
+<%- include partials/header.ejs %>
+
+
+<%- include  partials/main_nav.ejs %>
+
+  <!-- Main Contact -->
+  <div id="main-body" class="container-fluid" style="max-width: 50%; text-align: center; margin-bottom: 75px">
+  <main class="container-fluid">
+        <h1 class="display-4" style="text-align: center;">Contact Us</h1>
+        <br>
+      
+    <div class="container">
+        <div style="text-align:center">
+          <h6>Thank you for giving us your attention, and now you have ours!</h6>
+          <p>Let us know below if there's anything we can help you with, or anything more you'd like to know!</p>
+        </div>
+              
+              <!-- CONTACT FORM -->        
+            <form action="/action_page.php" style="text-align: left">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Enter your first name here">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Enter your last name here">
+              <label for="number">Phone Number</label>
+              <input type="text" id="number" name="number" placeholder="Enter your phone number here">
+              <label for="email">E-Mail</label>
+              <input type="text" id="email" name="email" placeholder="Enter your e-mail here">
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="How can I help you?" style="height:75px"></textarea>
+              <a href="/home">
+              <input type="button" value="Submit">
+              </a>
+            </form>
+          </div>
+</main></div>
+
+
+<!-- Bottom Nav and Footer -->
+<%- include  partials/bottom_nav.ejs %>
+
+<%- include  partials/footer.ejs %>
