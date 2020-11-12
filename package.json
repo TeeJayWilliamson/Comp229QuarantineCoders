@@ -45,12 +45,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TeeJayWilliamson/trevor-williamson-express-site.git"
+    "url": "git+https://github.com/TeeJayWilliamson/Comp229QuarantineCoders.git"
   },
-  "author": "Trevor Williamson",
+  "author": "Quarantine Coders",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TeeJayWilliamson/trevor-williamson-express-site/issues"
+    "url": "https://github.com/TeeJayWilliamson/Comp229QuarantineCoders/issues"
   },
-  "homepage": "https://github.com/TeeJayWilliamson/trevor-williamson-express-site#readme"
+  "homepage": "https://github.com/TeeJayWilliamson/Comp229QuarantineCoders#readme"
 }
